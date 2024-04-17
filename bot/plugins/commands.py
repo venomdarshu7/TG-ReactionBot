@@ -21,7 +21,7 @@ async def start_command(_, msg: Message):
                     InlineKeyboardButton(text='Add me to chat', url=f'https://t.me/{Telegram.BOT_USERNAME}?startgroup=botstart')
                 ],
                 [
-                    InlineKeyboardButton(text='Source Code', url='https://github.com/TheCaduceus/TG-ReactionBot')
+                    InlineKeyboardButton(text='Source Code', url='https://t.me/vdmoviez')
                 ]
             ]
         )
@@ -41,7 +41,7 @@ async def send_emojis(_, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text='Reference', url='https://github.com/TheCaduceus/TG-ReactionBot/blob/main/bot/config.py#L8')
+                    InlineKeyboardButton(text='Reference', url='https://t.me/vdmoviez')
                 ]
             ]
         )
