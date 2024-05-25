@@ -4,7 +4,7 @@ class Telegram:
     API_ID = int(env.get("TG_API_ID", 1234))
     API_HASH = env.get("TG_API_HASH", "xyz")
     BOT_TOKEN = env.get("TG_BOT_TOKEN", "abc")
-    BOT_USERNAME = env.get("TG_BOT_USERNAME", "DrReactBot")
+    BOT_USERNAME = env.get("TG_BOT_USERNAME", "Drnreact_bot")
     EMOJIS = [
         "👍", "👎", "❤", "🔥", 
         "🥰", "👏", "😁", "🤔",
